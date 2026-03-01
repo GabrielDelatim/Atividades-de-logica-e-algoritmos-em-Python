@@ -19,11 +19,12 @@ delta = b**2 - 4*a*c
 
 if delta < 0:
     print ("A equação não possui raízes reais")
-
-raiz1 = -(b) - (math.sqrt (delta)) / a*2
-raiz2 = -(b) + (math.sqrt (delta)) / a*2
+else
+raiz1 = -((b) - (math.sqrt (delta)) / (a*2)
+raiz2 = -((b) + (math.sqrt (delta)) / (a*2)
 
 print ("As raizes da equação são" , raiz1 ,"e", raiz2 )
 
 
 #Fim
+
