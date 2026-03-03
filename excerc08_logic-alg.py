@@ -7,7 +7,7 @@ deposito: float=0.0
 #início
 
 deposito= float(input("Insira o valor do depósito:"))
-deposito= (deposito*1.3)
+deposito= (deposito*1.013)
 
 print ("Após um mês nessa poupança de rendimento 1,3% você terá:" , deposito)
 
